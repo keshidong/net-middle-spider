@@ -38,6 +38,6 @@ const PORT = argv.port ? parseInt(argv.port, 10) : 3000;
     });
     await page.screenshot({path: 'example.png'});
 
-})();
+})().catch(() => {});
 
 
