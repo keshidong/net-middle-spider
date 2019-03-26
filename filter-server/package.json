@@ -1,0 +1,37 @@
+{
+  "name": "filter-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "柯诗栋",
+  "license": "MIT",
+  "scripts": {
+    "filter-server-v1": "babel-node filter-server-v1.js",
+    "test": "babel-node simulate-spa-server.js"
+  },
+  "dependencies": {
+    "http-proxy": "^1.17.0",
+    "http-proxy-middleware": "^0.19.1",
+    "isbot": "^2.2.1",
+    "koa": "^2.5.0",
+    "koa-compress": "^2.0.0",
+    "koa-logger": "^3.2.0",
+    "koa-proxy-middleware": "^1.1.4",
+    "koa-router": "^7.4.0",
+    "koa2-connect": "^1.0.2",
+    "koa2-proxy-middleware": "^0.0.4",
+    "optimist": "^0.6.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.36",
+    "@babel/core": "^7.0.0-beta.35",
+    "@babel/node": "^7.0.0-beta.36",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0-beta.36",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.36",
+    "@babel/preset-env": "^7.0.0-beta.37",
+    "@babel/preset-stage-3": "^7.0.0-beta.37",
+    "@babel/register": "^7.0.0-beta.32",
+    "@babel/runtime": "^7.0.0-beta.36"
+  }
+}
